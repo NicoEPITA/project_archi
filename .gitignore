@@ -1,0 +1,74 @@
+# Ignore les fichiers de configuration de l'environnement
+.env
+
+# Ignore les fichiers générés par composer
+vendor/
+
+# Ignore les fichiers générés par npm/yarn
+node_modules/
+public/mix-manifest.json
+public/css/*
+public/js/*
+
+# Ignore le dossier de la bdd
+public/phpmyadmin
+
+# Ignore les fichiers de sauvegarde des éditeurs
+*.sublime-workspace
+*.sublime-project
+*.vscode/
+*.idea/
+*.phpstorm.meta.php
+
+# Ignore les fichiers de logs et les fichiers temporaires
+/storage/*.log
+/storage/*.sql
+/storage/*.sql.gz
+/storage/*.txt
+/storage/*.md
+/storage/app/*
+/storage/framework/*
+/storage/logs/*
+/storage/temp/*
+/bootstrap/cache/*
+
+# Ignore les fichiers de configuration
+/.editorconfig
+/.env.example
+/.gitattributes
+/phpunit.xml
+/server.php
+/artisan
+/yarn.lock
+/database/*.sqlite
+
+# Ignore les fichiers de cache
+*.log
+*.pid
+*.seed
+*.sqlite
+*.svg
+*.swp
+
+# Ignore les fichiers d'environnement locaux
+.env.*
+.env.local.php
+.env.local
+
+# Ignore les fichiers de sauvegarde
+*.bak
+*.backup
+*.sav
+*.save
+*.swp
+
+# Ignore les fichiers de configuration de l'IDE
+/.phpstorm.meta.php
+
+# Ignore les fichiers de configuration utilisateur
+/.envrc
+
+# Ignore les fichiers système
+.DS_Store
+Thumbs.db
+
