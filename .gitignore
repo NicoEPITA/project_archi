@@ -1,74 +1,57 @@
-# Ignore les fichiers de configuration de l'environnement
+# Dossiers et fichiers de configuration système
 .env
+.phpunit.result.cache
+.phpstorm.meta.php
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
 
-# Ignore les fichiers générés par composer
-vendor/
+# Dossiers générés par Composer
+/vendor
 
-# Ignore les fichiers générés par npm/yarn
-node_modules/
-public/mix-manifest.json
-public/css/*
-public/js/*
+# Dossiers générés par NPM et Yarn
+/node_modules
+/public/js
+/public/css
 
-# Ignore le dossier de la bdd
-public/phpmyadmin
+# Dossiers de sauvegarde de l'éditeur
+.idea
 
-# Ignore les fichiers de sauvegarde des éditeurs
-*.sublime-workspace
-*.sublime-project
-*.vscode/
-*.idea/
-*.phpstorm.meta.php
-
-# Ignore les fichiers de logs et les fichiers temporaires
-/storage/*.log
-/storage/*.sql
-/storage/*.sql.gz
-/storage/*.txt
-/storage/*.md
-/storage/app/*
-/storage/framework/*
-/storage/logs/*
-/storage/temp/*
-/bootstrap/cache/*
-
-# Ignore les fichiers de configuration
-/.editorconfig
-/.env.example
-/.gitattributes
-/phpunit.xml
-/server.php
-/artisan
-/yarn.lock
-/database/*.sqlite
-
-# Ignore les fichiers de cache
-*.log
-*.pid
-*.seed
-*.sqlite
-*.svg
+# Fichiers de sauvegarde de l'éditeur
 *.swp
+*~
 
-# Ignore les fichiers d'environnement locaux
-.env.*
-.env.local.php
-.env.local
+# Fichiers de logs
+/storage/logs/*.log
 
-# Ignore les fichiers de sauvegarde
-*.bak
-*.backup
-*.sav
-*.save
-*.swp
+# Fichiers de cache
+/bootstrap/cache
 
-# Ignore les fichiers de configuration de l'IDE
-/.phpstorm.meta.php
+# Fichiers de config spécifiques à l'utilisateur
+/config/app_local.php
 
-# Ignore les fichiers de configuration utilisateur
-/.envrc
+# Fichiers de session
+/storage/framework/sessions
 
-# Ignore les fichiers système
-.DS_Store
-Thumbs.db
+# Fichiers de vues compilées
+/storage/framework/views
 
+# Fichiers d'application spécifiques à l'utilisateur
+/public/hot
+/public/storage
+/public/phpmyadmin
+
+# Fichiers de mix-manifest
+/public/mix-manifest.json
+
+# Fichiers générés par PhpStorm
+.phpstorm*.meta.php
+.idea/
+
+# Cache de Vagrant
+.vagrant/
+
+# Cache d'Homestead
+Homestead.json
+Homestead.yaml
